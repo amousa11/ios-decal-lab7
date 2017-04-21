@@ -88,6 +88,8 @@
         case add:
             total = operand1 + operand2;
             break;
+        case sqsum:
+            total = (operand1*operand1) + (operand2*operand2);
         default:
             break;
     }

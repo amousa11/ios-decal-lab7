@@ -57,4 +57,10 @@
     };
 }
 
+- (IBAction)customFunction:(id)sender {
+    UIButton *pressedButton = (UIButton *)sender;
+    if ([_Cbrain recognizeAction:sqsum]) {
+        [self updatecalculationView];
+    }
+}
 @end
